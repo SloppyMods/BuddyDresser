@@ -1,0 +1,20 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+	<PropertyGroup>
+		<Version>1.0.0.0</Version>
+		<TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<OutputPath>..\Build\BuddyDresser\</OutputPath>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Nullable>enable</Nullable>
+		<DalamudApiLevel>15</DalamudApiLevel>
+		<Author>SloppyMods</Author>
+		<Name>Buddy Dresser</Name>
+		<Punchline>Dress up your chocobo companion with randomized barding sets or mixed pieces!</Punchline>
+		<Description>Randomizes chocobo companion barding on command and on summon.</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="BuddyDresser.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+</Project>

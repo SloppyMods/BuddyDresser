@@ -1,0 +1,17 @@
+{
+  "Author": "SloppyMods",
+  "Name": "Buddy Dresser",
+  "InternalName": "BuddyDresser",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Randomizes chocobo companion barding on command and on summon.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "Punchline": "Dress up your chocobo companion with randomized barding sets or mixed pieces!",
+  "Tags": [
+    "chocobo",
+    "companion",
+    "barding",
+    "randomizer",
+    "glamour"
+  ]
+}
